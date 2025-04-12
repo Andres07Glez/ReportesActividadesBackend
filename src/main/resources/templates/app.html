@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>practica</title>
+</head>
+<body>
+    <h1>Introduce tu nombre</h1>
+    <input type="text" id="nombreInput">
+    <button onclick="mostrarMensaje()">Enviar</button>
+    <p id="mensaje"></p>
+	
+
+    <script>
+        function mostrarMensaje() {
+            let nombre = document.getElementById("nombreInput").value;
+            alert("Hola, " + nombre + ", bienvenido a la práctica de JavaScript!");
+            document.getElementById("mensaje").textContent = "Hola, " + nombre + ", bienvenido a la práctica de JavaScript!";
+            console.log("Hola, " + nombre + ", bienvenido a la práctica de JavaScript!");
+          
+        }
+    </script>
+</body>
+</html>
