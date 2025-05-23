@@ -16,18 +16,13 @@ public class Curso implements Serializable{
 	
 	
 	@Id
-	@Column(name = "curso_Id")
 	private int cursoId;
-	private String asignatura;
 	private String carrera;
+	private String asignatura;
 	private String semestre;
-	@Column(name = "ciclo_Escolar")
 	private String cicloEscolar;
-	@Column(name = "horas_Semana")
 	private int horasSemana;
-	@Column(name = "numero_Alumnos")
 	private int numeroAlumnos;
-	
 	
 }
 
